@@ -1,0 +1,42 @@
+.logo-link-mobile{
+    display: none;
+}
+
+.service-header{
+    justify-content: center;
+    width: 100%;
+}
+
+.menu{
+    width: 90%;
+    justify-content: space-between;
+}
+
+.side-header{
+    width: 25%;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 480px){
+    .logo-link-mobile{
+        display: block;
+    }
+
+    .logo-link-desktop{
+        display: none;
+    }
+
+    .menu-btn{
+        position: static;
+    }
+
+    .service-header{
+        justify-content: flex-start;
+    }
+
+    .mobile-header{
+        width: 70%;
+    }
+}

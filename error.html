@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="../error.css">
+    <link rel="icon" href="../img/index/logo-icon.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/index/logo-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/index/logo-icon-android.png">
+</head>
+<body class="col">
+    <div class="rocks-container">
+        <img src="./img/index/rocks-1.webp" alt="летающие обломки камни щебень" class="rocks-1">
+        <!-- <img src="./img/index/rocks-2.webp" alt="летающие обломки камни щебень" class="rocks-2"> -->
+        <img src="./img/index/rocks-3.webp" alt="летающие обломки камни щебень" class="rocks-3">
+    </div>
+    <h1 class="orange text-headline uppercase swift-up-text error-text" itemprop="headline">Ошибка загрузки страницы, приносим свои извинения</h1> 
+
+    <a href="./index.html"><button class="text-base font-bold uppercase border btn">на галвную</button></a>
+</body>
+<style>
+    body{
+    width: 100%;
+}
+
+.error-text{
+    width: 90%;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 30px;
+}
+
+.rocks-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rocks-1{
+    position: relative;
+    top: 30vh;
+    transform: rotate(90deg);
+}
+
+.rocks-3{
+    position: relative;
+    top: -10vh;
+}
+</style>
+<script src="../script.js"></script>
+</html>

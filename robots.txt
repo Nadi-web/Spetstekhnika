@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /error
+
+Sitemap: https://spetstekhnika.by/sitemap.xml
+Host: spetstekhnika.by

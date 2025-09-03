@@ -1,0 +1,272 @@
+.main-container{
+    width: 95%;
+    margin: 0 0 0 5%;
+    justify-content: space-between;
+}
+
+.main-img{
+    width: 45%;
+    border-width: 5px 0 5px 5px;
+    border-radius: 32px 0 0 32px;
+}
+
+.main-text{
+    align-items: flex-start;
+    gap: 15px;
+}
+
+h1 em i{
+    line-height: 3.7rem;
+}
+
+.hleb{
+    justify-content: flex-start;
+    gap: 5px;
+    list-style-type: none;
+    margin: 0 0 40px 5%;
+    align-self: flex-start;
+}
+
+li a span:hover{
+    color: var(--color-thirdly);
+}
+
+.nav-menu{
+    width: 75%;
+    justify-content: space-between;
+
+    margin-bottom: 70px;
+}
+
+.nav-menu a:hover{
+    color: var(--color-thirdly);
+}
+
+.nav-menu a::after{
+    content: none;
+}
+
+.arenda{
+    align-items: flex-start;
+    width: 95%;
+    gap: 50px;
+}
+
+.exo{
+    font: normal 400 1rem "Exo 2";
+    line-height: 1rem;
+}
+
+.exo-36{
+    font-size: 2rem;
+    line-height: 1.2rem;
+}
+
+.arenda h1{
+    margin: 25px 0 15px 0;
+}
+
+.cards-list{
+    width: 100%;
+}
+
+.card{
+    width: 28%;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.item-img{
+    width: 63%;
+    border-radius: 25px;
+}
+
+.item-name .text-base{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.tekhnika-description, .item-char, .item{
+    align-items: flex-start;
+}
+
+.tekhnika-description{
+    gap: 10px;
+}
+
+.item-char, .item{
+    gap: 5px;
+}
+
+.left{
+    justify-content: flex-start;
+    gap: 4%;
+}
+
+.left .card{
+    width: 32%;
+    justify-content: flex-start;
+    gap: 5%;
+}
+
+.left .card .item-img{
+    width: 55%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+.faq{
+    margin: 70px 0 70px 0;
+    width: 90%;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.faq h1{
+    margin-bottom: 25px;
+}
+
+.question{
+    align-items: flex-start;
+    gap: 7px;
+}
+
+
+
+.cont h1{
+    margin-bottom: -7px;
+}
+
+#contact-us{
+    margin-bottom: 30px;
+}   
+
+@media (max-width: 1480px){
+    .call-btn-desktop{
+        width:  40%;
+    }
+}
+
+@media (max-width: 1200px){
+    .arenda{
+        gap: 30px;
+    }
+
+    .card{
+        width: 30%;
+    }
+
+    .faq{
+        margin: 30px 0 30px 0;
+    }
+
+    .nav-menu{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 700px){
+    .main-img{
+        border-width: 3px 0 3px 3px;
+    }
+    
+    .item-img{
+        border-radius: 15px;
+        width: 80%;
+    }
+
+    .left .card .item-img {
+        width: 80%;
+    }
+
+    .arenda {
+        gap: 20px;
+    }
+
+    .left .card{
+        width: 30%;
+        gap: 15px;
+    }
+
+    .left{
+        gap: 5%;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .item{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .gray{
+        font-size: 1.5rem;
+    }
+    .cont h1 {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 630px){
+    .nav-menu {
+        margin-bottom: 0px;
+    }
+
+    .hleb {
+        margin: 0 0 20px 5%;
+    }
+    
+    section{
+        margin-bottom: 20px;
+    }
+
+    .faq {
+        margin: 0 0 20px 0;
+        gap: 2px;
+    }
+
+    .faq h1 {
+        margin-bottom: 10px;
+    }
+}   
+
+@media (max-width: 480px){
+    *{
+        font-size: 7px;
+    }
+    .main-text h1 em i {
+        font-size: 3.5rem;
+        line-height: 2rem;
+        top: 3.5rem;
+    }
+
+    .main-img {
+        top: 140px;
+        height: 140px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .main-text{
+        margin-top: 25px;
+    }
+
+    .arenda h1 {
+        margin: 15px 0 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item .gray{
+        font-size: 1.6rem;
+    }
+}
